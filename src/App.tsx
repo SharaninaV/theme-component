@@ -1,8 +1,9 @@
 import React from 'react'
 import './App.css'
+import { SettingsButton } from './components/SettingsButton'
 
 function App () {
-  return <div/>
+  return <SettingsButton />
 }
 
 export default App
