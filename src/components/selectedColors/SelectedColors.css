@@ -1,0 +1,23 @@
+.selected-colors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 32px;
+    height: 32px;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+}
+
+.selected-colors__item__left-top {
+        border-radius: 6px 0 0 0;
+    }
+.selected-colors__item__right-top {
+    border-radius: 0 6px 0 0;
+}
+.selected-colors__item__left-bottom {
+    border-radius: 0 0 6px 0;
+}
+.selected-colors__item__right-bottom {
+    border-radius: 0 0 0 6px;
+}
+
